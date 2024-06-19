@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "_Layout";
+}
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                    <h1>Stages</h1>
+                    <a href="/Stages/Create" class="btn btn-default" style="width: 25rem; height: 4rem; font-size: 1.8rem;">Criar Stage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <table>
+                <tr style="border: 1px solid black">
+                    <th></th>
+                    <th>Name</th>
+                    <th>Color</th>
+                    <th>Sort</th>
+                    <th></th>
+                </tr>
+                @foreach (var item in @Model)
+                {
+                    <tr >
+                        <td>
+                            <a href="/stages/edit/@item.Id">Editar</a>
+                        </td>
+                        <td>@item.Name</td>
+                        <td style="color: @item.Color; font-weight: bold;">@item.Color</td>
+                        <td>@item.Sort</td>
+                        <td>
+                            <a href="/stages/Delete/@item.Id" style="color: red; font-weight: bold;">Apagar</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<hr>

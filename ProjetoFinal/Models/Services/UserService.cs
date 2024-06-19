@@ -87,7 +87,6 @@ public class UserService : HelperBase
         conexao.Close();
         conexao.Dispose();
 
-
         if (docs.Rows.Count > 1)
             return user;
         

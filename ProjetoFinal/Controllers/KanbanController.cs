@@ -33,7 +33,6 @@ namespace ProjetoFinal.Controllers
         [HttpGet]
         public IActionResult List()
         {
-            user = userService.GetBySession("" + HttpContext.Session.GetString(Program.SessionContainerName));
             if (user is null)
                 return RedirectToAction("Login", "User");
 

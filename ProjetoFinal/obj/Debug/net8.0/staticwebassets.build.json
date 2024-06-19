@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G/8Wb7T4qwdrWhL3Zew5sxtMQoCSvZE5zG8Upgus1ow=",
+  "Hash": "fndRB5Z6/a/OjJ0CXcHrUQqF2QNqif1hBqvQhJm3HRY=",
   "Source": "ProjetoFinal",
   "BasePath": "_content/ProjetoFinal",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ProjetoFinal\\wwwroot",
       "Source": "ProjetoFinal",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\bootstrap.css",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -55,10 +55,29 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\global.css",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
+      "BasePath": "_content/ProjetoFinal",
+      "RelativePath": "css/global.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\global.css"
+    },
+    {
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "SourceId": "ProjetoFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -74,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "fonts/glyphicons-halflings-regular.woff2",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\bootstrap.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\js\\jquery.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\jquery.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "js/jquery.js",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\jquery.min.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "js/jquery.min.js",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.intellisense.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.intellisense.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "Scripts/jquery-3.3.1.intellisense.js",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.intellisense.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "Scripts/jquery-3.3.1.js",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "Scripts/jquery-3.3.1.min.js",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.min.map",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.min.map",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "Scripts/jquery-3.3.1.min.map",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.min.map"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "Scripts/jquery-3.3.1.slim.js",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.slim.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.js",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.js",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "Scripts/jquery-3.3.1.slim.min.js",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.map",
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.map",
       "SourceId": "ProjetoFinal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
       "RelativePath": "Scripts/jquery-3.3.1.slim.min.map",
       "AssetKind": "All",

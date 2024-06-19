@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zlhDlnmLDrwvYD17sCyYcg0fPHn8b/mCUOsVANb5L8wm2nxXFU1d3X+bK1hf/D0HYFX2gX5PUaCISmxh32tZ5A==",
+  "dgSpecHash": "O7J6U3qoKkQLcgM0U6HVcYL1B8VMLnAXUxKasptmlQzmxc3stYyOQ6WPS2WSiiAkuuVYK3/S2B/jKITTiC1yfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj",
+  "projectFilePath": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\ProjetoFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vasco Peixoto\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Vasco Peixoto\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

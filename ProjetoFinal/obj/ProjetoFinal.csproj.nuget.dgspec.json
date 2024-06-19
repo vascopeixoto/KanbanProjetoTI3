@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj": {}
+    "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\ProjetoFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj": {
+    "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\ProjetoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj",
+        "projectUniqueName": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\ProjetoFinal.csproj",
         "projectName": "ProjetoFinal",
-        "projectPath": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\ProjetoFinal.csproj",
+        "projectPath": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\ProjetoFinal.csproj",
         "packagesPath": "C:\\Users\\Vasco Peixoto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vasco Peixoto\\source\\repos\\ProjetoFinal\\ProjetoFinal\\obj\\",
+        "outputPath": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasco Peixoto\\AppData\\Roaming\\NuGet\\NuGet.Config",

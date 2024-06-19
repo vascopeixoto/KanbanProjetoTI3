@@ -17,40 +17,56 @@ public class UserHelper : HelperBase
 
     public string AuthUser(UserLogin model)
     {
-        var user = userService.GetByEmail(model.Email);
-        if (user is not null)
+        try
         {
-            if (user.Email.ToLower() == model.Email.ToLower())
+            var user = userService.GetByEmail(model.Email);
+            if (user is not null)
             {
-                if (encryptor.Decrypt(user.Pass) == model.Pass)
+                if (user.Email.ToLower() == model.Email.ToLower())
                 {
-                    return encryptor.Encrypt(user.Id);
+                    if (encryptor.Decrypt(user.Pass) == model.Pass)
+                    {
+                        return encryptor.Encrypt(user.Id);
+                    }
                 }
             }
-        }
 
-        return "";
+            return "";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return "";
+        }
     }
 
     public string RegistUser(UserRegist model)
     {
-        var user = userService.GetByEmail(model.Email);
-        if (user.Id != Guid.Empty.ToString())
-            return "";
-
-        if (model.Pass == model.ConfirmPass)
+        try
         {
-            model.Pass = encryptor.Encrypt(model.Pass);
-            if (userService.RegistUser(model))
+            var user = userService.GetByEmail(model.Email);
+            if (user.Id != Guid.Empty.ToString())
+                return "";
+
+            if (model.Pass == model.ConfirmPass)
             {
-                user = userService.GetByEmail(model.Email);
-                if (user is not null)
+                model.Pass = encryptor.Encrypt(model.Pass);
+                if (userService.RegistUser(model))
                 {
-                    return encryptor.Encrypt(user.Id);
+                    user = userService.GetByEmail(model.Email);
+                    if (user is not null)
+                    {
+                        return encryptor.Encrypt(user.Id);
+                    }
                 }
             }
-        }
 
-        return "";
+            return "";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return "";
+        }
     }
 }

@@ -9,27 +9,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoFinal
 build_property.RootNamespace = ProjetoFinal
-build_property.ProjectDir = C:\Users\Vasco Peixoto\source\repos\ProjetoFinal\ProjetoFinal\
+build_property.ProjectDir = C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vasco Peixoto\source\repos\ProjetoFinal\ProjetoFinal
+build_property.MSBuildProjectDirectory = C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vasco Peixoto/source/repos/ProjetoFinal/ProjetoFinal/Views/Kanban/List.cshtml]
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/Kanban/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FuYmFuXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vasco Peixoto/source/repos/ProjetoFinal/ProjetoFinal/Views/Shared/_Layout.cshtml]
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vasco Peixoto/source/repos/ProjetoFinal/ProjetoFinal/Views/User/Login.cshtml]
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/Stages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/Stages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/Stages/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZ2VzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vasco Peixoto/source/repos/ProjetoFinal/ProjetoFinal/Views/User/Regist.cshtml]
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/User/Regist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
