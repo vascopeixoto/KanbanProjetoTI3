@@ -48,8 +48,9 @@ public class TaskService : HelperBase
             SqlConnection conexao = new SqlConnection(DBConnection);
             comando.Connection = conexao;
             comando.CommandType = CommandType.Text;
-            comando.CommandText = " INSERT INTO tTask (Id, Title, Description, EstimatedTime, DateCreated, UserId, StageId) " +
-                                  " VALUES (@Id, @Title, @Description, @EstimatedTime, @DateCreated, @UserId, @StageId)";
+            comando.CommandText =
+                " INSERT INTO tTask (Id, Title, Description, EstimatedTime, DateCreated, UserId, StageId) " +
+                " VALUES (@Id, @Title, @Description, @EstimatedTime, @DateCreated, @UserId, @StageId)";
             comando.Parameters.AddWithValue("@Id", id);
             comando.Parameters.AddWithValue("@Title", task.Title);
             comando.Parameters.AddWithValue("@Description", task.Description);
@@ -84,6 +85,23 @@ public class TaskService : HelperBase
         }
     }
 
+    public void SaveStage(Task task)
+    {
+        SqlCommand comando = new SqlCommand();
+        SqlConnection conexao = new SqlConnection(DBConnection);
+        comando.Connection = conexao;
+        comando.CommandType = CommandType.Text;
+        comando.CommandText = " UPDATE tTask " +
+                              " SET StageId = @StageId " +
+                              " WHERE Id = @Id ";
+        comando.Parameters.AddWithValue("@Id", task.Id);
+        comando.Parameters.AddWithValue("@StageId", task.Stage.Id);
+        conexao.Open();
+        comando.ExecuteNonQuery();
+        conexao.Close();
+        conexao.Dispose();
+    }
+
     public Task? GetById(string id)
     {
         Task? task = null;
@@ -106,7 +124,7 @@ public class TaskService : HelperBase
 
         if (docs.Rows.Count > 1)
             return task;
-        
+
         if (docs.Rows.Count == 0)
             return task;
 
@@ -117,6 +135,7 @@ public class TaskService : HelperBase
             Id = docLine["Id"].ToString(),
             Title = docLine["Title"].ToString(),
             Description = docLine["Description"].ToString(),
+            StageId = docLine["StageId"].ToString(),
             EstimatedTime = Convert.ToInt32(docLine["EstimatedTime"])
         };
 

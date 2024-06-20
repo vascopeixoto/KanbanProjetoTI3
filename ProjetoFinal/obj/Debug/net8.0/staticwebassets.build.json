@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fndRB5Z6/a/OjJ0CXcHrUQqF2QNqif1hBqvQhJm3HRY=",
+  "Hash": "BaPjQBOrfnFzT1+6PJ+mQ/bk/kCQ8JsTXc2mJosCAuM=",
   "Source": "ProjetoFinal",
   "BasePath": "_content/ProjetoFinal",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\global.css"
+    },
+    {
+      "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\kanban.css",
+      "SourceId": "ProjetoFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
+      "BasePath": "_content/ProjetoFinal",
+      "RelativePath": "css/kanban.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\kanban.css"
     },
     {
       "Identity": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",

@@ -10,12 +10,14 @@ namespace ProjetoFinal.Controllers
         private UserService userService;
         private UserHelper userHelper;
         private TaskHelper taskHelper;
+        private StagesHelper stagesHelper;
 
         public KanbanController()
         {
             userService = new UserService();
             userHelper = new UserHelper();
             taskHelper = new TaskHelper();
+            stagesHelper = new StagesHelper();
         }
 
         public override void OnActionExecuting(ActionExecutingContext aec)
@@ -40,13 +42,34 @@ namespace ProjetoFinal.Controllers
 
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
-            
-            var tasks = taskHelper.List("" + HttpContext.Session.GetString(Program.SessionContainerName));
 
-            return View(tasks);
+            var tasks = taskHelper.List("" + HttpContext.Session.GetString(Program.SessionContainerName));
+            var stages = stagesHelper.List();
+
+            var model = new KanbanViewModel
+            {
+                Tasks = tasks,
+                Stages = stages
+            };
+
+            return View(model);
         }
-        
-        
+       
+        [HttpPost]
+        public IActionResult MoveTask(string taskId, string newStageId)
+        {
+            var task = taskHelper.Get(taskId);
+            if (task == null)
+            {
+                return NotFound();
+            }
+
+            task.Stage = stagesHelper.Get(newStageId);
+            taskHelper.SaveStage(task);
+
+            return RedirectToAction("List", "Kanban");
+        }
+
         [HttpGet]
         public IActionResult Create()
         {
@@ -114,7 +137,7 @@ namespace ProjetoFinal.Controllers
                 return RedirectToAction("Login", "User");
 
             taskHelper.Delete(op);
-            
+
             return RedirectToAction("List", "Kanban");
         }
     }

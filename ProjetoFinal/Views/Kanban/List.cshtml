@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ProjetoFinal.Models.KanbanViewModel
+@{
     Layout = "_Layout";
 }
 
@@ -15,33 +16,34 @@
     </div>
 </header>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <table>
-                <tr style="border: 1px solid black">
-                    <th></th>
-                    <th>Nome</th>
-                    <th>Tempo estimado</th>
-                    <th>Estágio</th>
-                    <th></th>
-                </tr>
-                @foreach (var item in @Model)
-                {
-                <tr>
-                    <td>
-                        <a href="/kanban/edit/@item.Id">Editar</a>
-                    </td>
-                    <td>@item.Title</td>
-                    <td>@item.EstimatedTime</td>
-                    <td style="color: @item.Stage.Color; font-weight: bold;">@item.Stage.Name</td>
-                    <td>
-                        <a href="/kanban/Delete/@item.Id" style="color: red; font-weight: bold;">Apagar</a>
-                    </td>
-                </tr>
-                }
-            </table>
+<div style="width: 100vw; display: flex; justify-content: center;">
+    <div class="kaban-container">
+        <div class="boards">
+            @foreach (var stage in Model.Stages)
+            {
+                <div class="board">
+                    <div style="display: flex; color: white; box-shadow: 0 0 8px 0 var(--boxShadow); text-align: center; background: @stage.Color; border-radius: 4px;">
+                        <h3 style="flex: auto; color: white">@stage.Name</h3>
+                    </div>
+                    <div class="stageContainer scrollbar2" data-dropColor="@stage.Color" data-dropArea="@stage.Id" id="stage-@stage.Id" style="padding: 1rem; display: flex; flex-direction: column;">
+                        @foreach (var task in Model.Tasks.Where(t => t.Stage.Id == stage.Id))
+                        {
+                            <div class="draggable" data-id="@task.Id" data-stage="@stage.Id" draggable="true" style="border-left: solid 0.2rem @task.Stage.Color; background-color: white;">
+                                <div class="content">@task.Title</div>
+                                <div class="task-subinfo">
+                                    <div class="projectName">Tempo Estimado: @(task.EstimatedTime)h</div>
+                                    <div class="projectName">
+                                        <a href="/kanban/edit/@task.Id">Editar</a>
+                                        <a href="/kanban/Delete/@task.Id" style="color: red;">Apagar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
         </div>
     </div>
 </div>
-<hr>
+<hr/>
+

@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\css\\global.css"
     },
     {
+      "Id": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\kanban.css",
+      "PackagePath": "staticwebassets\\css\\kanban.css"
+    },
+    {
       "Id": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
     },

@@ -91,6 +91,28 @@ public class TaskHelper : HelperBase
         }
     }
 
+    public void SaveStage(TaskSave task)
+    {
+        try
+        {
+            var newTask = new Task
+            {
+                Id = task.Id,
+                Title = task.Title,
+                Description = task.Description,
+                EstimatedTime = task.EstimatedTime,
+                Stage = task.Stage
+            };
+
+            taskService.SaveStage(newTask);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return;
+        }
+    }
+
     public TaskSave? Get(string id)
     {
         try
@@ -105,7 +127,8 @@ public class TaskHelper : HelperBase
                 Id = task.Id,
                 Title = task.Title,
                 Description = task.Description,
-                EstimatedTime = task.EstimatedTime
+                EstimatedTime = task.EstimatedTime,
+                StageId = task.StageId
             };
         }
         catch (Exception e)
