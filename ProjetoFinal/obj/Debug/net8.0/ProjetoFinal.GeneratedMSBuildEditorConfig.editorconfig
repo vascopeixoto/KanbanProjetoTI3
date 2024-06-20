@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/Kanban/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FuYmFuXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/Kanban/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FuYmFuXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Vasco Peixoto/source/repos/KanbanProjetoTI3/ProjetoFinal/Views/Kanban/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FuYmFuXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
