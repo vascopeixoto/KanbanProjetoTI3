@@ -41,7 +41,7 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
             
-            var tasks = taskHelper.List();
+            var tasks = taskHelper.List("" + HttpContext.Session.GetString(Program.SessionContainerName));
 
             return View(tasks);
         }
@@ -71,7 +71,7 @@ namespace ProjetoFinal.Controllers
 
             taskHelper.Save(task, "" + HttpContext.Session.GetString(Program.SessionContainerName));
 
-            return RedirectToAction("List", "Stages");
+            return RedirectToAction("List", "Kanban");
         }
 
         [HttpGet]
@@ -85,7 +85,7 @@ namespace ProjetoFinal.Controllers
 
             var task = taskHelper.Get(op);
             if (task is null)
-                return RedirectToAction("List", "Stages");
+                return RedirectToAction("List", "Kanban");
 
             return View(task);
         }
@@ -101,7 +101,7 @@ namespace ProjetoFinal.Controllers
 
             taskHelper.Save(task, "" + HttpContext.Session.GetString(Program.SessionContainerName));
 
-            return RedirectToAction("List", "Stages");
+            return RedirectToAction("List", "Kanban");
         }
 
         [HttpGet]
@@ -115,7 +115,7 @@ namespace ProjetoFinal.Controllers
 
             taskHelper.Delete(op);
             
-            return RedirectToAction("List", "Stages");
+            return RedirectToAction("List", "Kanban");
         }
     }
 }

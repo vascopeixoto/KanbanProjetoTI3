@@ -17,12 +17,13 @@ public class TaskHelper : HelperBase
         userService = new UserService();
     }
 
-    public List<TaskList> List()
+    public List<TaskList> List(string hash)
     {
         try
         {
+            var user = userService.GetBySession(hash);
             List<TaskList> list = new();
-            var tasks = taskService.List();
+            var tasks = taskService.List(user.Id);
             foreach (var task in tasks)
             {
                 var obj = new TaskList
@@ -62,7 +63,6 @@ public class TaskHelper : HelperBase
             {
                 newTask = new Task
                 {
-                    Id = Guid.NewGuid().ToString(),
                     Title = task.Title,
                     Description = task.Description,
                     EstimatedTime = task.EstimatedTime,
