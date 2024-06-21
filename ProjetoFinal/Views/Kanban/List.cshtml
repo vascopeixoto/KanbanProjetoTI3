@@ -1,6 +1,7 @@
 ﻿@model ProjetoFinal.Models.KanbanViewModel
 @{
     Layout = "_Layout";
+
 }
 
 <header class="intro-header">
@@ -28,7 +29,7 @@
                     <div class="stageContainer scrollbar2" data-dropColor="@stage.Color" data-dropArea="@stage.Id" id="stage-@stage.Id" style="padding: 1rem; display: flex; flex-direction: column;">
                         @foreach (var task in Model.Tasks.Where(t => t.Stage.Id == stage.Id))
                         {
-                            <div class="draggable" data-id="@task.Id" data-stage="@stage.Id" draggable="true" style="border-left: solid 0.2rem @task.Stage.Color; background-color: white;">
+                            <div class="draggable" id="task-@task.Id" data-id="@task.Id" data-stage="@stage.Id" draggable="true" style="border-left: solid 0.2rem @task.Stage.Color; background-color: white;">
                                 <div class="content">@task.Title</div>
                                 <div class="task-subinfo">
                                     <div class="projectName">Tempo Estimado: @(task.EstimatedTime)h</div>
@@ -47,3 +48,52 @@
 </div>
 <hr/>
 
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        let draggedTask = null;
+
+        document.querySelectorAll('.draggable').forEach(task => {
+            task.addEventListener('dragstart', (e) => {
+                draggedTask = task;
+                e.dataTransfer.effectAllowed = 'move';
+                e.dataTransfer.setData('text/plain', task.dataset.id);
+            });
+        });
+
+        document.querySelectorAll('.stageContainer').forEach(stage => {
+            stage.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                e.dataTransfer.dropEffect = 'move';
+            });
+
+            stage.addEventListener('drop', (e) => {
+                e.preventDefault();
+                const taskId = e.dataTransfer.getData('text/plain');
+                const newStageId = stage.dataset.droparea;
+
+                if (draggedTask) {
+                    stage.appendChild(draggedTask);
+                    draggedTask.dataset.stage = newStageId;
+                    updateTaskStage(taskId, newStageId);
+                }
+            });
+        });
+
+        function updateTaskStage(taskId, newStageId) {
+            const formData = new FormData();
+            formData.append('taskId', taskId);
+            formData.append('newStageId', newStageId);
+
+            fetch('/kanban/MoveTask', {
+                method: 'POST',
+                body: formData
+            }).then(response => {
+                if (!response.ok) {
+                    console.error('Failed to move task');
+                }
+            }).catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    });
+</script>
