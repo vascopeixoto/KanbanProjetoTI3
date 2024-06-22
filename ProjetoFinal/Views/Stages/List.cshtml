@@ -1,4 +1,6 @@
-﻿@{
+﻿@model List<ProjetoFinal.Models.Stage>
+
+@{
     Layout = "_Layout";
 }
 <header class="intro-header">
@@ -7,7 +9,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="page-heading">
                     <h1>Stages</h1>
-                    <a href="/Stages/Create" class="btn btn-default" style="width: 25rem; height: 4rem; font-size: 1.8rem;">Criar Stage</a>
+                    <a href="/Stages/Create" class="btn btn-primary" style="width: 25rem; height: 4rem; font-size: 1.8rem;">Criar Stage</a>
                 </div>
             </div>
         </div>
@@ -25,17 +27,21 @@
                     <th>Sort</th>
                     <th></th>
                 </tr>
-                @foreach (var item in @Model)
+                @foreach (var item in @Model.OrderBy(x => x.Sort))
                 {
                     <tr>
                         <td>
-                            <a href="/stages/edit/@item.Id">Editar</a>
+                            <div style="display: flex; justify-content: center;">
+                                <a style="font-size: 2rem;" class="bx bxs-edit-alt" href="/stages/edit/@item.Id"></a>
+                            </div>
                         </td>
                         <td>@item.Name</td>
                         <td style="color: @item.Color; font-weight: bold;">@item.Color</td>
                         <td>@item.Sort</td>
                         <td>
-                            <a href="/stages/Delete/@item.Id" style="color: red; font-weight: bold;">Apagar</a>
+                            <div style="display: flex; justify-content: center;">
+                                <a class="bx bxs-trash" href="/stages/Delete/@item.Id" style="color: red !important; font-weight: bold; font-size: 2rem;"></a>
+                            </div>
                         </td>
                     </tr>
                 }
