@@ -8,8 +8,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="page-heading">
-                    <h1>Stages</h1>
-                    <a href="/Stages/Create" class="btn btn-primary" style="width: 25rem; height: 4rem; font-size: 1.8rem;">Criar Stage</a>
+                    <h1>Estágios</h1>
+                    <a href="/Stages/Create" class="btn btn-primary" style="width: 25rem; height: 4rem; font-size: 1.8rem;">Criar Estágio</a>
                 </div>
             </div>
         </div>
@@ -22,9 +22,9 @@
             <table>
                 <tr style="border: 1px solid black">
                     <th></th>
-                    <th>Name</th>
-                    <th>Color</th>
-                    <th>Sort</th>
+                    <th>Nome</th>
+                    <th>Cor</th>
+                    <th>Ordem</th>
                     <th></th>
                 </tr>
                 @foreach (var item in @Model.OrderBy(x => x.Sort))

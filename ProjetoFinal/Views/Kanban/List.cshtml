@@ -29,11 +29,10 @@
                         @foreach (var task in Model.Tasks.Where(t => t.Stage.Id == stage.Id))
                         {
                             <div class="draggable" id="task-@task.Id" data-id="@task.Id" data-stage="@stage.Id" draggable="true" style="border-left: solid 0.2rem @task.Stage.Color;">
-                                <div class="content" style="font-size: 2rem;">@task.Title</div>
+                                <a class="content" href="/kanban/edit/@task.Id" style="font-size: 2rem;">@task.Title</a>
                                 <div class="task-subinfo" style="gap: 2rem;">
                                     <div class="projectName" style="font-size: 1.2rem;">Tempo Estimado: @(task.EstimatedTime)min</div>
                                     <div class="projectName" style="display: flex; justify-content: center; gap: 2rem;">
-                                        <a class="bx bxs-edit-alt" style="font-size: 2rem;" href="/kanban/edit/@task.Id"></a>
                                         <a class="bx bxs-trash" href="/kanban/Delete/@task.Id" style="font-size: 2rem; color: red !important;"></a>
                                     </div>
                                 </div>
