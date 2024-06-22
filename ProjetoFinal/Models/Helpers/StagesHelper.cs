@@ -7,17 +7,21 @@ namespace ProjetoFinal.Models;
 public class StagesHelper : HelperBase
 {
     private StagesService stagesService;
+    private UserService userService;
 
     public StagesHelper()
     {
         stagesService = new StagesService();
+        userService = new UserService();
     }
 
-    public List<Stage> List()
+    public List<Stage> List(string hash)
     {
         try
         {
-            return stagesService.List();
+            var user = userService.GetBySession(hash);
+
+            return stagesService.List(user.Id);
         }
         catch (Exception e)
         {
@@ -26,10 +30,12 @@ public class StagesHelper : HelperBase
         }
     }
 
-    public void Save(Stage stage)
+    public void Save(Stage stage, string hash)
     {
         try
         {
+            var user = userService.GetBySession(hash);
+            stage.UserId = user.Id;
             stagesService.Save(stage);
         }
         catch (Exception e)

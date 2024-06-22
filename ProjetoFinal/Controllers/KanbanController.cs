@@ -44,7 +44,7 @@ namespace ProjetoFinal.Controllers
                 return RedirectToAction("Login", "User");
 
             var tasks = taskHelper.List("" + HttpContext.Session.GetString(Program.SessionContainerName));
-            var stages = stagesHelper.List();
+            var stages = stagesHelper.List("" + HttpContext.Session.GetString(Program.SessionContainerName));
 
             var model = new KanbanViewModel
             {

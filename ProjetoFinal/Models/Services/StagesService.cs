@@ -6,7 +6,7 @@ namespace ProjetoFinal.Models;
 
 public class StagesService : HelperBase
 {
-    public List<Stage> List()
+    public List<Stage> List(string userId)
     {
         List<Stage> stages = new List<Stage>();
 
@@ -16,7 +16,8 @@ public class StagesService : HelperBase
         SqlConnection conexao = new SqlConnection(DBConnection);
 
         comando.CommandType = CommandType.Text;
-        comando.CommandText = "SELECT * FROM tStage";
+        comando.CommandText = "SELECT * FROM tStage WHERE UserId = @UserId";
+        comando.Parameters.AddWithValue("@UserId", userId);
         comando.Connection = conexao;
         telefone.SelectCommand = comando;
         telefone.Fill(docs);
@@ -47,12 +48,13 @@ public class StagesService : HelperBase
             SqlConnection conexao = new SqlConnection(DBConnection);
             comando.Connection = conexao;
             comando.CommandType = CommandType.Text;
-            comando.CommandText = " INSERT INTO tStage (Id, Name, Color, Sort) " +
-                                  " VALUES (@Id, @Name, @Color, @Sort)";
+            comando.CommandText = " INSERT INTO tStage (Id, Name, Color, Sort, UserId) " +
+                                  " VALUES (@Id, @Name, @Color, @Sort, @UserId)";
             comando.Parameters.AddWithValue("@Id", id);
             comando.Parameters.AddWithValue("@Name", stage.Name);
             comando.Parameters.AddWithValue("@Color", stage.Color);
             comando.Parameters.AddWithValue("@Sort", stage.Sort);
+            comando.Parameters.AddWithValue("@UserId", stage.UserId);
             conexao.Open();
             comando.ExecuteNonQuery();
             conexao.Close();

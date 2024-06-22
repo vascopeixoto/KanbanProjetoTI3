@@ -55,7 +55,7 @@ public class TaskHelper : HelperBase
         try
         {
             var user = userService.GetBySession(hash);
-            var stages = stagesService.List();
+            var stages = stagesService.List(user.Id);
 
             var newTask = new Task();
 

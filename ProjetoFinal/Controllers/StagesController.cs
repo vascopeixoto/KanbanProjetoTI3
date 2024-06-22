@@ -41,7 +41,7 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
 
-            var stages = stagesHelper.List();
+            var stages = stagesHelper.List("" + HttpContext.Session.GetString(Program.SessionContainerName));
 
             return View(stages);
         }
@@ -69,7 +69,7 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
 
-            stagesHelper.Save(stage);
+            stagesHelper.Save(stage, "" + HttpContext.Session.GetString(Program.SessionContainerName));
 
             return RedirectToAction("List", "Stages");
         }
@@ -99,7 +99,7 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
 
-            stagesHelper.Save(stage);
+            stagesHelper.Save(stage, "" + HttpContext.Session.GetString(Program.SessionContainerName));
 
             return RedirectToAction("List", "Stages");
         }
@@ -114,7 +114,7 @@ namespace ProjetoFinal.Controllers
                 return RedirectToAction("Login", "User");
 
             stagesHelper.Delete(op);
-            
+
             return RedirectToAction("List", "Stages");
         }
     }
