@@ -1,0 +1,137 @@
+html {
+    --bg: #323232;
+    --bg-panel: #393838;
+    --color-text: #FFFFFF;
+    --color-primary: #337ab7;
+}
+
+input {
+    color-scheme: dark;
+}
+
+.form-control {
+    color: var(--color-text) !important;
+    background-color: var(--bg-panel) !important;
+}
+
+body {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 20px;
+    color: var(--color-text);
+}
+
+.page-heading {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin: 0 !important;
+}
+
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+a {
+    color: var(--color-text) !important;
+}
+
+a:hover,
+a:focus {
+    color: var(--color-primary);
+}
+
+a img:hover,
+a img:focus {
+    cursor: zoom-in;
+}
+
+blockquote {
+    color: var(--bg-panel);
+    font-style: italic;
+}
+
+hr.small {
+    max-width: 100px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: white;
+}
+
+.navbar-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 800;
+}
+
+.navbar-custom .nav li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.intro-header {
+    margin-top: 7rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table thead tr {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    text-align: left;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid var(--color-text);
+}
+
+table tbody tr {
+    border-bottom: 1px solid var--color-text);
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: var(--bg-panel);
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+table tbody tr:hover {
+    background-color: var(--bg-panel);
+}

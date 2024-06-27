@@ -1,5 +1,97 @@
-﻿@{
+﻿@model ProjetoFinal.Models.KanbanViewModel
+@{
     Layout = "_Layout";
 }
 
-<h1>Hello World!</h1>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="page-heading">
+                    <h1>Kanban</h1>
+                    <a href="/Kanban/Create" class="btn btn-primary" style="width: 25rem; height: 4rem; font-size: 1.8rem;">Criar Tarefa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div style="width: 100vw; display: flex; justify-content: center;">
+    <div class="kaban-container">
+        <div class="boards">
+            @foreach (var stage in Model.Stages.OrderBy(x => x.Sort))
+            {
+                <div class="board">
+                    <div style="display: flex; color: white; box-shadow: 0 0 8px 0 var(--boxShadow); text-align: center; background: @stage.Color; border-radius: 4px;">
+                        <h3 style="flex: auto; color: white">@stage.Name</h3>
+                    </div>
+                    <div class="stageContainer scrollbar2" data-dropColor="@stage.Color" data-dropArea="@stage.Id" id="stage-@stage.Id" style="padding: 1rem; display: flex; flex-direction: column;">
+                        @foreach (var task in Model.Tasks.Where(t => t.Stage.Id == stage.Id))
+                        {
+                            <div class="draggable" id="task-@task.Id" data-id="@task.Id" data-stage="@stage.Id" draggable="true" style="border-left: solid 0.2rem @task.Stage.Color;">
+                                <a class="content" href="/kanban/edit/@task.Id" style="font-size: 2rem;">@task.Title</a>
+                                <div class="task-subinfo" style="gap: 2rem;">
+                                    <div class="projectName" style="font-size: 1.2rem;">Tempo Estimado: @(task.EstimatedTime)min</div>
+                                    <div class="projectName" style="display: flex; justify-content: center; gap: 2rem;">
+                                        <a class="bx bxs-trash" href="/kanban/Delete/@task.Id" style="font-size: 2rem; color: red !important;"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<hr/>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        let draggedTask = null;
+
+        document.querySelectorAll('.draggable').forEach(task => {
+            task.addEventListener('dragstart', (e) => {
+                draggedTask = task;
+                e.dataTransfer.effectAllowed = 'move';
+                e.dataTransfer.setData('text/plain', task.dataset.id);
+            });
+        });
+
+        document.querySelectorAll('.stageContainer').forEach(stage => {
+            stage.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                e.dataTransfer.dropEffect = 'move';
+            });
+
+            stage.addEventListener('drop', (e) => {
+                e.preventDefault();
+                const taskId = e.dataTransfer.getData('text/plain');
+                const newStageId = stage.dataset.droparea;
+
+                if (draggedTask) {
+                    stage.appendChild(draggedTask);
+                    draggedTask.dataset.stage = newStageId;
+                    updateTaskStage(taskId, newStageId);
+                }
+            });
+        });
+
+        function updateTaskStage(taskId, newStageId) {
+            const formData = new FormData();
+            formData.append('taskId', taskId);
+            formData.append('newStageId', newStageId);
+
+            fetch('/kanban/MoveTask', {
+                method: 'POST',
+                body: formData
+            }).then(response => {
+                if (!response.ok) {
+                    console.error('Failed to move task');
+                }
+            }).catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    });
+</script>

@@ -1,25 +1,21 @@
 ﻿@{
     Layout = "_Layout";
 }
-<header class="intro-header" style="background-image: url('img/registo-bg.jpg')">
+<header class="intro-header">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="page-heading">
-                    <h1>Registo de Conta</h1>
-                    <hr class="small">
-                    <span class="subheading">Publique o seu Documento: Registe-se...</span>
+                    <h1 style="text-align: center;">Registo</h1>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <p>Crie a sua Conta no Portal Docs 4 ALL:</p>
             <form name="frmLogin" method="post" action="/User/Regist" validate>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -28,30 +24,33 @@
                         <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <label>eMail</label>
+                        <label>Email</label>
                         <input type="email" class="form-control" placeholder="Email" name="Email" id="txtEmail" required>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <label>Senha</label>
-                        <input type="password" class="form-control" placeholder="Senha" name="Pass" id="txtSenha" required>
+                        <label>Pass</label>
+                        <input type="password" class="form-control" placeholder="Pass" name="Pass" id="txtSenha" required>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <label>Senha</label>
-                        <input type="password" class="form-control" placeholder="Confirme Senha" name="ConfirmPass" id="txtConfirmacaoSenha" required>
+                        <label>Confirme Pass</label>
+                        <input type="password" class="form-control" placeholder="Confirme Pass" name="ConfirmPass" id="txtConfirmacaoSenha" required>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <br>
                 <div id="success"></div>
                 <div class="row">
-                    <div class="form-group col-xs-12">
-                        <button id="submit" type="submit" name="submit" class="btn btn-default">Criar Registo</button>
+                    <div class="form-group col-xs-12" style="display: flex; justify-content: center;">
+                        <label>Já tenho uma conta. <a href="/User/Login" style="text-decoration: underline; color: var(--color-primary) !important;">Login</a></label>
+                    </div>
+                    <div class="form-group col-xs-12" style="display: flex; justify-content: center;">
+                        <button id="submit" type="submit" name="submit" class="btn btn-primary" style="width: 25rem; height: 4rem; font-size: 1.8rem;">Registar</button>
                     </div>
                 </div>
             </form>

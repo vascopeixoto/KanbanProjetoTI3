@@ -1,0 +1,142 @@
+.boards {
+    display: flex;
+    margin-top: 32px;
+}
+
+.kaban-container {
+    overflow-x: auto;
+    width: 80%;
+}
+
+.board {
+    border-radius: 20px;
+    margin: 0 1rem;
+    min-height: 80vh;
+    min-width: 28rem;
+    max-width: 30rem;
+}
+
+    .board h3 {
+        padding: 16px;
+        margin: 0;
+        color: white;
+    }
+
+.stageContainer {
+    padding-top: 1rem;
+    min-width: 282px;
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--bg-panel);
+}
+
+/*.content {
+    color: white;
+}*/
+
+.draggable {
+    box-shadow: 0 0 10px 0 #b1b1b178;
+    display: flex;
+    background-color: var(--bg);
+    padding: 16px;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.task-subinfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.task-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.2rem;
+    font-weight: normal;
+    font-size: 0.7rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.timeManagement {
+    align-items: center;
+    display: flex;
+}
+
+.task-hours {
+    align-content: flex-end;
+}
+
+.task-persons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .task-persons > img {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+
+    .task-persons > span {
+        color: #bababa;
+    }
+
+.taskName {
+    font-size: 1.5rem;
+    color: var(--color-text);
+}
+
+.projectName {
+    font-size: 1rem;
+    color: var(--color-text);
+}
+
+.highlight {
+    background-color: #FD951F08;
+}
+
+.draggable, .dropzone {
+    transition: 400ms;
+}
+
+.is-dragging {
+    cursor: move;
+    opacity: 0.3;
+}
+
+.dragging {
+    opacity: 0.5;
+    box-shadow: 0 0 8px #bfbfbf;
+}
+
+.over {
+    background-color: #337ab7;
+}
+
+.spin {
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

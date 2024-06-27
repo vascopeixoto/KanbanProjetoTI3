@@ -12,6 +12,10 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);
         builder.Services.AddSession(s  => s.IdleTimeout  = TimeSpan.FromMinutes(20));
         builder.Services.AddMvc();
+        builder.Services.AddAntiforgery(options => 
+        {
+            options.HeaderName = "X-CSRF-TOKEN";
+        });
         var config = builder.Configuration.GetSection("Configuration").Get<Configuration>();
         Connector = config!.Connection;
         Key = config!.Key;

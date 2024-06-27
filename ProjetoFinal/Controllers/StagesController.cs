@@ -4,19 +4,17 @@ using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace ProjetoFinal.Controllers
 {
-    public class KanbanController : Controller
+    public class StagesController : Controller
     {
         private User? user;
         private UserService userService;
         private UserHelper userHelper;
-        private TaskHelper taskHelper;
         private StagesHelper stagesHelper;
 
-        public KanbanController()
+        public StagesController()
         {
             userService = new UserService();
             userHelper = new UserHelper();
-            taskHelper = new TaskHelper();
             stagesHelper = new StagesHelper();
         }
 
@@ -43,32 +41,11 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
 
-            var tasks = taskHelper.List("" + HttpContext.Session.GetString(Program.SessionContainerName));
             var stages = stagesHelper.List("" + HttpContext.Session.GetString(Program.SessionContainerName));
 
-            var model = new KanbanViewModel
-            {
-                Tasks = tasks,
-                Stages = stages
-            };
-
-            return View(model);
+            return View(stages);
         }
-       
-        [HttpPost]
-        public IActionResult MoveTask(string taskId, string newStageId)
-        {
-            var task = taskHelper.Get(taskId);
-            if (task == null)
-            {
-                return NotFound();
-            }
 
-            task.Stage = stagesHelper.Get(newStageId);
-            taskHelper.SaveStage(task);
-
-            return RedirectToAction("List", "Kanban");
-        }
 
         [HttpGet]
         public IActionResult Create()
@@ -84,7 +61,7 @@ namespace ProjetoFinal.Controllers
 
 
         [HttpPost]
-        public IActionResult Create(TaskSave task)
+        public IActionResult Create(Stage stage)
         {
             if (user is null)
                 return RedirectToAction("Login", "User");
@@ -92,9 +69,9 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
 
-            taskHelper.Save(task, "" + HttpContext.Session.GetString(Program.SessionContainerName));
+            stagesHelper.Save(stage, "" + HttpContext.Session.GetString(Program.SessionContainerName));
 
-            return RedirectToAction("List", "Kanban");
+            return RedirectToAction("List", "Stages");
         }
 
         [HttpGet]
@@ -106,15 +83,15 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
 
-            var task = taskHelper.Get(op);
-            if (task is null)
-                return RedirectToAction("List", "Kanban");
+            var stage = stagesHelper.Get(op);
+            if (stage is null)
+                return RedirectToAction("List", "Stages");
 
-            return View(task);
+            return View(stage);
         }
 
         [HttpPost]
-        public IActionResult Edit(TaskSave task)
+        public IActionResult Edit(Stage stage)
         {
             if (user is null)
                 return RedirectToAction("Login", "User");
@@ -122,9 +99,9 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
 
-            taskHelper.Save(task, "" + HttpContext.Session.GetString(Program.SessionContainerName));
+            stagesHelper.Save(stage, "" + HttpContext.Session.GetString(Program.SessionContainerName));
 
-            return RedirectToAction("List", "Kanban");
+            return RedirectToAction("List", "Stages");
         }
 
         [HttpGet]
@@ -136,9 +113,9 @@ namespace ProjetoFinal.Controllers
             if (user.AccessLevel == 0)
                 return RedirectToAction("Login", "User");
 
-            taskHelper.Delete(op);
+            stagesHelper.Delete(op);
 
-            return RedirectToAction("List", "Kanban");
+            return RedirectToAction("List", "Stages");
         }
     }
 }
