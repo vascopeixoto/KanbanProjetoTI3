@@ -1,4 +1,4 @@
-# Task and Stages Management Project in C# with Razor
+# Task and Stages Management Project with Kanban View in C# with Razor
 
 This project is a web application developed in C# and Razor, which implements a CRUD system (Create, Read, Update, Delete) to manage tasks and their respective stages. The system is secured with sessions to ensure user data privacy and security. Additionally, it offers an intuitive Kanban view, allowing tasks to be easily moved between different stages.
 
