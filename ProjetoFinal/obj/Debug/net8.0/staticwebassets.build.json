@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BaPjQBOrfnFzT1+6PJ+mQ/bk/kCQ8JsTXc2mJosCAuM=",
+  "Hash": "SJdB796xwSdh9FaczBVbBgl9Vgpdqi/L0aUdEwWUvQU=",
   "Source": "ProjetoFinal",
   "BasePath": "_content/ProjetoFinal",
   "Mode": "Default",
@@ -22,15 +22,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "css/bootstrap.css",
+      "RelativePath": "css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ltmlwns538",
+      "Integrity": "yUJoYBDihWM9d6JDQcQ4UMzWFi/MfoKBropwwpIamvU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
@@ -41,15 +43,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "css/bootstrap.min.css",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ctxrk56t0c",
+      "Integrity": "8EtRe6XWoFEEhWiaPkLawAD1FkD9cbmGgEy6F46uQqU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
@@ -60,15 +64,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "css/global.css",
+      "RelativePath": "css/global#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "s2fio4xaw6",
+      "Integrity": "1FRmtmZiXowH68ZnBV06iOD1mZAD4/PvNf75QyIqqSk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\global.css"
@@ -79,15 +85,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "css/kanban.css",
+      "RelativePath": "css/kanban#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "zxlelmn8tx",
+      "Integrity": "lyP80Pwu1GwfWFgJSZjjUp1kb8R9n4ri0h5sb5m6Va0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\kanban.css"
@@ -98,15 +106,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "fonts/glyphicons-halflings-regular.eot",
+      "RelativePath": "fonts/glyphicons-halflings-regular#[.{fingerprint}]?.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "torz25362b",
+      "Integrity": "E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.eot"
@@ -117,15 +127,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "fonts/glyphicons-halflings-regular.svg",
+      "RelativePath": "fonts/glyphicons-halflings-regular#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "masyeah4yd",
+      "Integrity": "QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.svg"
@@ -136,15 +148,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "fonts/glyphicons-halflings-regular.ttf",
+      "RelativePath": "fonts/glyphicons-halflings-regular#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "li0e4nnnks",
+      "Integrity": "45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.ttf"
@@ -155,15 +169,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "fonts/glyphicons-halflings-regular.woff",
+      "RelativePath": "fonts/glyphicons-halflings-regular#[.{fingerprint}]?.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "qqew9mh6jt",
+      "Integrity": "omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff"
@@ -174,15 +190,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "fonts/glyphicons-halflings-regular.woff2",
+      "RelativePath": "fonts/glyphicons-halflings-regular#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "y3zdydnkm9",
+      "Integrity": "/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fonts\\glyphicons-halflings-regular.woff2"
@@ -193,15 +211,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "js/bootstrap.js",
+      "RelativePath": "js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "v8o8wdjun1",
+      "Integrity": "Qa+WnuAOgTKgBACU2ysaeaFbTZt+K7SFASlw/fe1xFU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
@@ -212,15 +232,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "js/bootstrap.min.js",
+      "RelativePath": "js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xxdditpw0b",
+      "Integrity": "1f0XPQDZczkAg04OEIPehrUy4EixXAQgulwtsGI2RLg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
@@ -231,15 +253,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "js/jquery.js",
+      "RelativePath": "js/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "0pltwn6jd8",
+      "Integrity": "FA/0OOqu3gRvHOuidXnRbcmAWVcJORhz+pv3TX2+U6w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\jquery.js"
@@ -250,15 +274,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "js/jquery.min.js",
+      "RelativePath": "js/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "k7f188oyhl",
+      "Integrity": "wNQJi8izTG+Ho9dyOYiugSFKU6C7Sh1NNqZ2QPmO0Hk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\jquery.min.js"
@@ -269,15 +295,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "Scripts/jquery-3.3.1.intellisense.js",
+      "RelativePath": "Scripts/jquery-3.3.1.intellisense#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "t061h4we5m",
+      "Integrity": "vZUlrgykbqxLYRukNBBpgPgRuG8Bi1Tr8IPMp65ar94=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.intellisense.js"
@@ -288,15 +316,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "Scripts/jquery-3.3.1.js",
+      "RelativePath": "Scripts/jquery-3.3.1#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "gux2z0h2ti",
+      "Integrity": "2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.js"
@@ -307,15 +337,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "Scripts/jquery-3.3.1.min.js",
+      "RelativePath": "Scripts/jquery-3.3.1.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "2ye1g148en",
+      "Integrity": "FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.min.js"
@@ -326,15 +358,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "Scripts/jquery-3.3.1.min.map",
+      "RelativePath": "Scripts/jquery-3.3.1.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "b804xvqo1w",
+      "Integrity": "1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.min.map"
@@ -345,15 +379,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "Scripts/jquery-3.3.1.slim.js",
+      "RelativePath": "Scripts/jquery-3.3.1.slim#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "wnux8pv31v",
+      "Integrity": "fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.slim.js"
@@ -364,15 +400,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "Scripts/jquery-3.3.1.slim.min.js",
+      "RelativePath": "Scripts/jquery-3.3.1.slim.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "7fg0hl6hkg",
+      "Integrity": "3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.slim.min.js"
@@ -383,18 +421,1662 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\",
       "BasePath": "_content/ProjetoFinal",
-      "RelativePath": "Scripts/jquery-3.3.1.slim.min.map",
+      "RelativePath": "Scripts/jquery-3.3.1.slim.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "hiqumc4mhz",
+      "Integrity": "R9iD2BZjLu3OzwrErQRNtxPK5tUuGdtBa2iefT78g2c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\jquery-3.3.1.slim.min.map"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/bootstrap.css",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yUJoYBDihWM9d6JDQcQ4UMzWFi/MfoKBropwwpIamvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yUJoYBDihWM9d6JDQcQ4UMzWFi/MfoKBropwwpIamvU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.ltmlwns538.css",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yUJoYBDihWM9d6JDQcQ4UMzWFi/MfoKBropwwpIamvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ltmlwns538"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yUJoYBDihWM9d6JDQcQ4UMzWFi/MfoKBropwwpIamvU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8EtRe6XWoFEEhWiaPkLawAD1FkD9cbmGgEy6F46uQqU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8EtRe6XWoFEEhWiaPkLawAD1FkD9cbmGgEy6F46uQqU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.ctxrk56t0c.css",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8EtRe6XWoFEEhWiaPkLawAD1FkD9cbmGgEy6F46uQqU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ctxrk56t0c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8EtRe6XWoFEEhWiaPkLawAD1FkD9cbmGgEy6F46uQqU="
+        }
+      ]
+    },
+    {
+      "Route": "css/global.css",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\global.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1FRmtmZiXowH68ZnBV06iOD1mZAD4/PvNf75QyIqqSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Jun 2024 14:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1FRmtmZiXowH68ZnBV06iOD1mZAD4/PvNf75QyIqqSk="
+        }
+      ]
+    },
+    {
+      "Route": "css/global.s2fio4xaw6.css",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\global.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1FRmtmZiXowH68ZnBV06iOD1mZAD4/PvNf75QyIqqSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Jun 2024 14:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s2fio4xaw6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/global.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1FRmtmZiXowH68ZnBV06iOD1mZAD4/PvNf75QyIqqSk="
+        }
+      ]
+    },
+    {
+      "Route": "css/kanban.css",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\kanban.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lyP80Pwu1GwfWFgJSZjjUp1kb8R9n4ri0h5sb5m6Va0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Jun 2024 13:57:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lyP80Pwu1GwfWFgJSZjjUp1kb8R9n4ri0h5sb5m6Va0="
+        }
+      ]
+    },
+    {
+      "Route": "css/kanban.zxlelmn8tx.css",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\css\\kanban.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lyP80Pwu1GwfWFgJSZjjUp1kb8R9n4ri0h5sb5m6Va0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Jun 2024 13:57:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zxlelmn8tx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/kanban.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lyP80Pwu1GwfWFgJSZjjUp1kb8R9n4ri0h5sb5m6Va0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.eot",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.li0e4nnnks.ttf",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "li0e4nnnks"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/glyphicons-halflings-regular.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.masyeah4yd.svg",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "masyeah4yd"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/glyphicons-halflings-regular.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.qqew9mh6jt.woff",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qqew9mh6jt"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/glyphicons-halflings-regular.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.svg",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.torz25362b.eot",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "torz25362b"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/glyphicons-halflings-regular.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.ttf",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.woff",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.woff2",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/glyphicons-halflings-regular.y3zdydnkm9.woff2",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y3zdydnkm9"
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/glyphicons-halflings-regular.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qa+WnuAOgTKgBACU2ysaeaFbTZt+K7SFASlw/fe1xFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qa+WnuAOgTKgBACU2ysaeaFbTZt+K7SFASlw/fe1xFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35951"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1f0XPQDZczkAg04OEIPehrUy4EixXAQgulwtsGI2RLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1f0XPQDZczkAg04OEIPehrUy4EixXAQgulwtsGI2RLg="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.xxdditpw0b.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35951"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1f0XPQDZczkAg04OEIPehrUy4EixXAQgulwtsGI2RLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xxdditpw0b"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1f0XPQDZczkAg04OEIPehrUy4EixXAQgulwtsGI2RLg="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.v8o8wdjun1.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qa+WnuAOgTKgBACU2ysaeaFbTZt+K7SFASlw/fe1xFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v8o8wdjun1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qa+WnuAOgTKgBACU2ysaeaFbTZt+K7SFASlw/fe1xFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.0pltwn6jd8.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FA/0OOqu3gRvHOuidXnRbcmAWVcJORhz+pv3TX2+U6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0pltwn6jd8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FA/0OOqu3gRvHOuidXnRbcmAWVcJORhz+pv3TX2+U6w="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FA/0OOqu3gRvHOuidXnRbcmAWVcJORhz+pv3TX2+U6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FA/0OOqu3gRvHOuidXnRbcmAWVcJORhz+pv3TX2+U6w="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wNQJi8izTG+Ho9dyOYiugSFKU6C7Sh1NNqZ2QPmO0Hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wNQJi8izTG+Ho9dyOYiugSFKU6C7Sh1NNqZ2QPmO0Hk="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.min.k7f188oyhl.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\js\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wNQJi8izTG+Ho9dyOYiugSFKU6C7Sh1NNqZ2QPmO0Hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7f188oyhl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wNQJi8izTG+Ho9dyOYiugSFKU6C7Sh1NNqZ2QPmO0Hk="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.gux2z0h2ti.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gux2z0h2ti"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/jquery-3.3.1.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.intellisense.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.intellisense.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vZUlrgykbqxLYRukNBBpgPgRuG8Bi1Tr8IPMp65ar94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vZUlrgykbqxLYRukNBBpgPgRuG8Bi1Tr8IPMp65ar94="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.intellisense.t061h4we5m.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.intellisense.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vZUlrgykbqxLYRukNBBpgPgRuG8Bi1Tr8IPMp65ar94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t061h4we5m"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/jquery-3.3.1.intellisense.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vZUlrgykbqxLYRukNBBpgPgRuG8Bi1Tr8IPMp65ar94="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.min.2ye1g148en.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ye1g148en"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/jquery-3.3.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.min.b804xvqo1w.map",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b804xvqo1w"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/jquery-3.3.1.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.min.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.min.map",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.slim.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.slim.min.7fg0hl6hkg.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7fg0hl6hkg"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/jquery-3.3.1.slim.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.slim.min.hiqumc4mhz.map",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R9iD2BZjLu3OzwrErQRNtxPK5tUuGdtBa2iefT78g2c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hiqumc4mhz"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/jquery-3.3.1.slim.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R9iD2BZjLu3OzwrErQRNtxPK5tUuGdtBa2iefT78g2c="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.slim.min.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.slim.min.map",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R9iD2BZjLu3OzwrErQRNtxPK5tUuGdtBa2iefT78g2c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R9iD2BZjLu3OzwrErQRNtxPK5tUuGdtBa2iefT78g2c="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/jquery-3.3.1.slim.wnux8pv31v.js",
+      "AssetFile": "C:\\Users\\Vasco Peixoto\\source\\repos\\KanbanProjetoTI3\\ProjetoFinal\\wwwroot\\Scripts\\jquery-3.3.1.slim.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Jun 2024 18:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wnux8pv31v"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/jquery-3.3.1.slim.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        }
+      ]
     }
   ]
 }

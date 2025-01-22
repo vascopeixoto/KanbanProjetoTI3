@@ -3,12 +3,13 @@ CREATE PROCEDURE [dbo].[AddTask]
     @Title VARCHAR(255),
     @Description TEXT,
     @EstimatedTime INT,
+	@DateCreated datetime,
     @StageId VARCHAR(255),
 	@UserId VARCHAR(255)
 AS
 BEGIN
-    INSERT INTO TTask (Id, Title, Description, EstimatedTime, UserId, StageId)
-    VALUES (@Id, @Title, @Description, @EstimatedTime, @UserId, @StageId)
+    INSERT INTO tTask (Id, Title, Description, EstimatedTime, DateCreated, UserId, StageId)
+    VALUES (@Id, @Title, @Description, @EstimatedTime, @DateCreated, @UserId, @StageId)
 END
 GO
 
@@ -22,7 +23,7 @@ CREATE PROCEDURE [dbo].[UpdateTask]
 	@UserId VARCHAR(255)
 AS
 BEGIN
-    UPDATE Tasks
+    UPDATE tTask
     SET Title = @Title,
         Description = @Description,
         EstimatedTime = @EstimatedTime,
@@ -39,6 +40,9 @@ BEGIN
         tTask.Id,
         tTask.Title,
         tTask.Description,
+	tTask.EstimatedTime,
+	tTask.StageId,
+	tTask.UserId,
         tStage.Name AS StageName,
         tUser.Name AS UserName
     FROM tTask

@@ -3,15 +3,15 @@ using System.Data.SqlClient;
 
 namespace ProjetoFinal.Models;
 
-public class TaskTester
+public class TaskTester : HelperBase
 {
-    private readonly string _connectionString;
+    Random r;
 
-    public TaskTester(string connectionString)
+    public TaskTester()
     {
-        _connectionString = connectionString;
+        r = new Random();
     }
-    
+
     public string Criar(Task task)
     {
         string retID = "";
@@ -19,7 +19,7 @@ public class TaskTester
         {
             SqlCommand sqlC = new SqlCommand();
             //----
-            sqlC.Connection = new SqlConnection(_connectionString);
+            sqlC.Connection = new SqlConnection(DBConnection);
             sqlC.Connection.Open();
             sqlC.CommandType = CommandType.StoredProcedure;
             sqlC.CommandText = "AddTask";
@@ -27,6 +27,7 @@ public class TaskTester
             sqlC.Parameters.Add("@Title", SqlDbType.VarChar, 255).Value = task.Title;
             sqlC.Parameters.Add("@Description", SqlDbType.Text).Value = task.Description;
             sqlC.Parameters.Add("@EstimatedTime", SqlDbType.Int).Value = task.EstimatedTime;
+            sqlC.Parameters.Add("@DateCreated", SqlDbType.DateTime).Value = task.DateCreated;
             sqlC.Parameters.Add("@UserId", SqlDbType.VarChar, 255).Value = task.UserId;
             sqlC.Parameters.Add("@StageId", SqlDbType.VarChar, 255).Value = task.StageId;
 
@@ -44,7 +45,7 @@ public class TaskTester
 
         return retID;
     }
-    
+
     public string Atualizar(Task task)
     {
         string retID = "";
@@ -52,7 +53,7 @@ public class TaskTester
         {
             SqlCommand sqlC = new SqlCommand();
             //----
-            sqlC.Connection = new SqlConnection(_connectionString);
+            sqlC.Connection = new SqlConnection(DBConnection);
             sqlC.Connection.Open();
             sqlC.CommandType = CommandType.StoredProcedure;
             sqlC.CommandText = "UpdateTask";
@@ -85,7 +86,7 @@ public class TaskTester
         try
         {
             SqlA.SelectCommand = new SqlCommand();
-            SqlA.SelectCommand.Connection = new SqlConnection(_connectionString);
+            SqlA.SelectCommand.Connection = new SqlConnection(DBConnection);
             SqlA.SelectCommand.Connection.Open();
             SqlA.SelectCommand.CommandType = CommandType.StoredProcedure;
             SqlA.SelectCommand.CommandText = "QTester_GetTop10Percent_Task";
@@ -110,11 +111,69 @@ public class TaskTester
                 m.Description = r["Description"].ToString();
                 m.StageId = r["StageId"].ToString();
                 m.UserId = r["UserId"].ToString();
+                m.Stage = new Stage { Name = r["StageName"].ToString() };
+                m.User = new User { Name = r["UserName"].ToString() };
                 m.EstimatedTime = Convert.ToInt32(r["EstimatedTime"]);
                 retList.Add(m);
             }
         }
 
         return retList;
+    }
+
+    public string geraDescricao()
+    {
+        int tamanho = r.Next(2, 20);
+        int contador = 0;
+        string Descricao = "";
+        while (contador < tamanho)
+        {
+            Descricao += " " + geraNomeSimples(r.Next(3, 8));
+            contador++;
+        }
+
+        return Descricao;
+    }
+
+    public string geraTitle()
+    {
+        int tamanho = r.Next(2, 4);
+        int contador = 0;
+        string Title = "";
+        while (contador < tamanho)
+        {
+            Title += " " + geraNomeSimples(r.Next(3, 8));
+            contador++;
+        }
+
+        return Title;
+    }
+
+    private string geraNomeSimples(int comprimento)
+    {
+        string[] consoantes =
+        {
+            "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "l", "n", "p", "q", "r", "s", "sh", "zh", "t", "v",
+            "w", "x"
+        };
+        string[] vogais = { "a", "e", "i", "o", "u", "ão", "ou", "io", "ui" };
+        string Name = "";
+        Name += consoantes[r.Next(consoantes.Length)].ToUpper();
+        Name += vogais[r.Next(vogais.Length)];
+        int b = 2;
+        while (b < comprimento)
+        {
+            Name += consoantes[r.Next(consoantes.Length)];
+            b++;
+            Name += vogais[r.Next(vogais.Length)];
+            b++;
+        }
+
+        return Name;
+    }
+
+    public int GeraEstimatedDate()
+    {
+        return r.Next(1, 99);
     }
 }

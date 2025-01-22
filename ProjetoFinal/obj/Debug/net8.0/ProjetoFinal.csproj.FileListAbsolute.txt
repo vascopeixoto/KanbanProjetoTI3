@@ -72,3 +72,6 @@ C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal\obj\Debug\net8
 C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal\obj\Debug\net8.0\ProjetoFinal.genruntimeconfig.cache
 C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal\obj\Debug\net8.0\ref\ProjetoFinal.dll
 C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal\bin\Debug\net8.0\ProjetoFinal.staticwebassets.endpoints.json
+C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Vasco Peixoto\source\repos\KanbanProjetoTI3\ProjetoFinal\obj\Debug\net8.0\staticwebassets\msbuild.ProjetoFinal.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
