@@ -1,0 +1,49 @@
+CREATE PROCEDURE [dbo].[AddTask]
+    @Id VARCHAR(255),
+    @Title VARCHAR(255),
+    @Description TEXT,
+    @EstimatedTime INT,
+    @StageId VARCHAR(255),
+	@UserId VARCHAR(255)
+AS
+BEGIN
+    INSERT INTO TTask (Id, Title, Description, EstimatedTime, UserId, StageId)
+    VALUES (@Id, @Title, @Description, @EstimatedTime, @UserId, @StageId)
+END
+GO
+
+
+CREATE PROCEDURE [dbo].[UpdateTask]
+    @Id VARCHAR(255),
+    @Title VARCHAR(255),
+    @Description TEXT,
+    @EstimatedTime INT,
+    @StageId VARCHAR(255),
+	@UserId VARCHAR(255)
+AS
+BEGIN
+    UPDATE Tasks
+    SET Title = @Title,
+        Description = @Description,
+        EstimatedTime = @EstimatedTime,
+        StageId = @StageId,
+        UserId = @UserId
+    WHERE Id = @Id
+END
+GO
+
+CREATE PROCEDURE [dbo].[QTester_GetTop10Percent_Task] 
+AS
+BEGIN
+    SELECT TOP 10 PERCENT 
+        tTask.Id,
+        tTask.Title,
+        tTask.Description,
+        tStage.Name AS StageName,
+        tUser.Name AS UserName
+    FROM tTask
+    INNER JOIN tStage ON tStage.Id = tTask.StageId
+    INNER JOIN tUser ON tUser.Id = tTask.UserId
+    ORDER BY NEWID()
+END
+GO
